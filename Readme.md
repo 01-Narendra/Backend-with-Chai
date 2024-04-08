@@ -1,4 +1,4 @@
-# a backend series with hitesh sir
+# a backend learning with hitesh sir
 
  Backend Development
 
