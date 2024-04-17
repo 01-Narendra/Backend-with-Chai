@@ -12,7 +12,7 @@ const userSchema = new Schema(
         trim: true,
         index: true
     },
-    username: {
+    email: {
         type: String,
         required: true,
         unique: true,
@@ -87,4 +87,4 @@ userSchema.methods.generateRefreshToken = function() {
 }
 
 
-export const User = mongoose.Model('User', userSchema)
+export const User = mongoose.model('User', userSchema)
